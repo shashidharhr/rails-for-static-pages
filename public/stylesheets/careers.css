@@ -6,7 +6,7 @@ font-family: 'Roboto Condensed', sans-serif; }
 
 .body_wrap{
 width: 100%;
-   
+
 
 }
 .page_wrap{
@@ -58,7 +58,14 @@ h1{
 }
 
 
-
+.careers-header{
+  font-size: 3em;
+font-weight: 300;
+line-height: 1.1667em;
+ margin-top: 0; 
+margin-bottom: 0.375em;
+margin-left: 0.7em;
+}
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus{
 
