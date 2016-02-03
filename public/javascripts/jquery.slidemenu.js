@@ -1,7 +1,7 @@
 (function($) {
 
 	$.fn.spasticNav = function(options) {
-	
+
 		options = $.extend({
 			overlap : 0,
 			speed : 500,
@@ -9,9 +9,9 @@
 			color : '#00c6ff',
 			easing : 'swing'	//'easeOutExpo'
 		}, options);
-	
+
 		return this.each(function() {
-		
+
 		 	var nav = $(this),
 		 		currentPageItem = nav.find('>.current-menu-item,>.current-menu-parent,>.current-menu-ancestor'),	//>.current_page_parent
 				hidden = true,	//false
@@ -31,7 +31,7 @@
 					opacity: hidden ? 0 : 1
 				}).appendTo(this);
 		 	blob = $('#blob', nav);
-					 	
+
 			nav.find('>li:not(#blob)').hover(function() {
 				// mouse over
 				clearTimeout(reset);
@@ -52,7 +52,7 @@
 					}
 				);
 			}, function() {
-				// mouse out	
+				// mouse out
 				reset = setTimeout(function() {
 					/*
 					var a = currentPageItem.find('a');
@@ -69,10 +69,10 @@
 				}, options.reset);
 				$(this).removeClass('blob_over');
 			});
-		 
-		
+
+
 		}); // end each
-	
+
 	};
 
 })(jQuery);

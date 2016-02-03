@@ -75,7 +75,7 @@ jQuery(document).ready(function() {
 			startWithSlide: 0
 		});
 	}
-		
+
 	if (jQuery('#rev_slider_2_1').revolution == undefined) {
 		"use strict";
 		var revapi2;
@@ -152,7 +152,7 @@ jQuery(document).ready(function() {
 			startWithSlide: 0
 		});
 	}
-	
+
 	if (jQuery('#rev_slider_3_1').revolution == undefined) {
 		"use strict";
 		var revapi3;
@@ -229,5 +229,5 @@ jQuery(document).ready(function() {
 			startWithSlide: 0
 		});
 	}
-	
+
 });
