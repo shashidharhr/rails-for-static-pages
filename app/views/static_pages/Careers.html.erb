@@ -51,9 +51,24 @@
   </ul>
 
 
-<div style="color: #fff">.</div>
+  <div style="color: #fff">.</div>
 <div class="container">
+  <div class="pull-right">
+<% if user_signed_in? %>
 
+      <%= current_user.email %>&nbsp;&nbsp;&nbsp;
+
+
+      <%= link_to 'Profile', edit_user_registration_path %>&nbsp; &nbsp; &nbsp;&nbsp;
+      <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+
+
+
+<% else %>
+  <%= link_to 'Log In', new_user_session_path %>&nbsp;&nbsp;&nbsp;&nbsp;
+  <%= link_to 'Sign Up', new_user_registration_path %>
+<% end %>
+</div>
 
   <div class="tab-content">
 
@@ -147,7 +162,16 @@ iSTAR's trainers are professionally trained and bring their corporate work exper
   <div class="checkbox">
     <label><input type="checkbox">Remember me</label>
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+
+<% if user_signed_in? %>
+
+      <%= link_to "Submit", "/Careers", :class => 'btn btn-primary' %>
+  <% else %>
+    <%= link_to "Submit", new_user_session_path, :class => 'btn btn-primary' %>
+
+<% end %>
+
+
 </form>
 
 </div>
@@ -252,7 +276,13 @@ Drop us a line if you'd like to join us and put a ding in the universe!
   <div class="checkbox">
     <label><input type="checkbox"> Remember me</label>
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <% if user_signed_in? %>
+
+        <%= link_to "Submit", "/Careers", :class => 'btn btn-primary' %>
+    <% else %>
+      <%= link_to "Submit", new_user_session_path, :class => 'btn btn-primary' %>
+
+  <% end %>
 </form>
 
 </div>
@@ -363,7 +393,13 @@ Join us transform learning from a dreary chalk 'n' talk world into the magical e
   <div class="checkbox">
     <label><input type="checkbox"> Remember me</label>
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <% if user_signed_in? %>
+
+        <%= link_to "Submit", "/Careers", :class => 'btn btn-primary' %>
+    <% else %>
+      <%= link_to "Submit", new_user_session_path, :class => 'btn btn-primary' %>
+
+  <% end %>
 </form>
 
 </div>
@@ -463,7 +499,13 @@ We can have a section that features our latest openings.</p>
 
     <label><input type="checkbox"> Remember me</label>
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <% if user_signed_in? %>
+
+        <%= link_to "Submit", "/Careers", :class => 'btn btn-primary' %>
+    <% else %>
+      <%= link_to "Submit", new_user_session_path, :class => 'btn btn-primary' %>
+
+  <% end %>
 </form>
 
 </div>
