@@ -1,0 +1,55 @@
+
+
+html, body { height: 100%; width: 100%; margin: 0;
+font-family: 'Roboto Condensed', sans-serif; }
+
+h1 {
+    font-size: 3.75em;
+    font-weight: 100;
+    line-height: 0.8;
+    margin-top: 32px;
+    margin-bottom: 0.2667em;
+}
+
+
+
+
+
+#memeber{
+	max-width: 20em;
+	max-height: 20em;
+	float: left;
+
+	margin: 0.9em 2em 1em 1em;
+}
+
+
+.content p{
+	
+
+	margin-top: 1em;
+	margin-right: 10em;
+}
+.content{
+	min-height: 100%;
+}
+
+
+
+@media only screen and (max-width: 630px){
+#memeber {
+  float: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.content p{
+  margin-right: 0px;
+  margin: 2em;
+
+}
+
+
+}
+
+

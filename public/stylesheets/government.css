@@ -1,0 +1,718 @@
+
+
+
+html, body { height: 100%; width: 100%; margin: 0;
+font-family: 'Roboto Condensed', sans-serif; }
+
+.body_wrap{
+width: 100%;
+   height: 100%;
+
+}
+.carousel-control {
+
+	width: 5%;
+}
+.page_wrap{
+width: 100%;
+   height: 100%;
+
+}
+.tab-content{
+
+	width: 100%;
+   height: 100%;
+}
+
+.tab-pane{
+height: 100%;
+width: 100%;
+
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+.carousel, .carousel-inner{
+    background: #b7b795;
+  height: 100%;
+
+   /* margin-top: 20px; */
+   width: 100%;
+
+
+}
+.nav-tabs>li>a{
+	border-bottom: none;
+	color: #000;
+	font-family: "Trebuchet MS",Helvetica,Arial,sans-serif;
+	/*text-transform: uppercase;*/
+	/*font-weight: bold;*/
+	/*font-size: 1.7em;*/
+
+}
+
+.nav-tabs > li {
+    float: left;
+
+
+     zoom:1; /* hasLayout ie7 trigger */
+     width:20%;
+     height: 100%;
+     /* margin-right: -4px;*/
+
+}
+
+.nav-tabs {
+    text-align:center;
+
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li>a:focus{
+
+	border: none;
+	border-bottom: none;
+	background-color: #3a3a3a;
+	font-weight: bold;
+	color: #fff;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus{
+
+	border: none;
+	border-bottom: none;
+	background-color: #3a3a3a;
+	color: #fff;
+}
+.nav>li>a{
+padding: 1px 0px;
+}
+
+
+#product-nav>li>a {
+
+     padding: 10px 15px;
+}
+/*
+.nav-tabs>#ilabbg.active>a, .nav-tabs>#ilabbg.active>a:focus{
+
+	border: none;
+	border-bottom: none;
+	background-color: #f49705;
+	color: #fff;
+}
+
+.nav-tabs>#protrackbg.active>a, .nav-tabs>#protrackbg.active>a:focus{
+
+	border: none;
+	border-bottom: none;
+	background-color: #96af3c;
+	color: #fff;
+}
+
+.nav-tabs>#careerbg.active>a, .nav-tabs>#careerbg.active>a:focus{
+
+	border: none;
+	border-bottom: none;
+	background-color: #884b88;
+	color: #fff;
+}
+
+.nav-tabs>#certificatebg.active>a, .nav-tabs>#certificatebg.active>a:focus{
+
+	border: none;
+	border-bottom: none;
+	background-color: #333333;
+	color: #fff;
+}
+*/
+.nav-tabs>li.active>a:hover{
+	background-color: #3a3a3a;
+	color: #fff;
+	border: none;
+}
+.nav>li>a:hover{
+	background-color: rgba(234,234,225,0.4);
+}
+/*.nav-tabs>li>a:hover{
+	border-color: rgba(0,0,0,0);
+}*/
+
+.nav-tabs>li>a{
+	border-radius: 0 0 0 0;
+    border: none;
+
+   margin: 0;
+}
+
+#product-nav{
+
+   width: 100%;
+    margin-top: 1px;
+    background: #fff;
+
+
+}
+
+.nav-tabs{
+	border-bottom: none;
+}
+
+
+.nav-tabs>#ilabbg.active>a, .nav-tabs>#ilabbg>a:focus{
+
+
+	background-color: #006095;
+
+}
+
+.nav-tabs>#protrackbg.active>a, .nav-tabs>#protrackbg>a:focus{
+
+
+	background-color: #FEC56D;
+
+}
+
+.nav-tabs>#careerbg.active>a, .nav-tabs>#careerbg>a:focus{
+
+
+	background-color:#6d6d6d ;
+
+}
+
+.nav-tabs>#certificatebg.active>a, .nav-tabs>#certificatebg>a:focus{
+
+
+	background-color: #6d6d6d;
+
+}
+
+.nav-tabs>#asapbg.active>a, .nav-tabs>#asapbg>a:focus{
+
+
+	background-color: #fec56d;
+
+}
+
+.nav-tabs>#statebg.active>a, .nav-tabs>#statebg>a:focus{
+
+
+	background-color: #006095;
+
+}
+
+.bs-example-clip, .bs-example{
+	height: 100%
+}
+
+
+.college{
+
+
+width: 100%;
+height: 100%;
+/*height: 49em;*/
+
+}
+
+.container{
+	height: 96%;
+	width: 100%;
+	padding: 0 0 0 0;
+
+overflow:auto;
+}
+
+
+.corporate{
+
+
+width: 100%;
+height: 100%;
+
+}
+.govt{
+
+
+width: 100%;
+height: 100%;
+
+}
+.item{
+width: 100%;
+   height: 100%;
+}
+.bs-example{
+width: 100%;
+   height: 100%;
+
+}
+
+#myCarousel1{
+background: #7b7b51;
+}
+
+#myCarousel2{
+background: #7b7b51;
+}
+
+#myCarousel3{
+background: #7b7b51;
+}
+
+#myCarousel4{
+background: #7b7b51;
+}
+
+#myCarousel5{
+background: #7b7b51;
+}
+
+#myCarousel6{
+background: #7b7b51;
+}
+
+/*
+.carousel .item img{
+    margin: 0 auto;  Align slide image horizontally center
+    width: 100%;
+    height: 100%;
+}*/
+
+
+#ilab1 {
+/*height: 100%;
+width: 100%;*/
+   background: #006095;
+/*  background-size: 100% 100%;*/
+ /*background-size: cover;*/
+}
+#ilab2 {
+/*height: 100%;
+width: 100%;*/
+ /*  background: url(images/products/ilab2.jpg) no-repeat center center ;
+ background-size: cover;*/
+/* background-size: contain;*/
+
+background: #006095;
+}
+#ilab3 {
+/*height: 100%;
+width: 100%;*/
+background: #006095;
+
+   /*background-size: contain;	*/
+}
+
+#protrack1{
+ /*background: url(images/products/protrack4.jpg) no-repeat center center ;
+ background-size: cover;*/
+background: #FEC56D;
+}
+
+
+#protrack2{
+/* background: url(images/products/protrack5.jpg) no-repeat center center ;
+ background-size: cover;*/
+ background:  #FEC56D;
+}
+
+#protrack3{
+ /*background: url(images/products/protrack6.jpg) no-repeat center center ;
+ background-size: cover;*/
+ background: #FEC56D;
+}
+
+#career1{
+ /*background: url(images/products/careerprep1.jpg) no-repeat center center ;
+ background-size: cover;*/
+ background: #6d6d6d;
+}
+
+
+#career2{
+	background: #6d6d6d;
+}
+
+#career3{
+		background: #6d6d6d;
+
+}
+#career4{
+		 background: #585858 ;
+
+}
+#statecourses{
+background: #FEC56D;
+
+}
+#asap{
+background: #fec56d;
+}
+
+#certificate2{
+	 background: url(images/products/cert2.png) no-repeat center center ;
+ background-size: cover;
+}
+#certificate3{
+	background: #585858;
+}
+
+#state1{
+  background: #006095;
+}
+#state2{
+	background: #006095;
+}
+
+#state3{
+	background: #006095;
+}
+
+
+
+
+
+}
+.carousel-inner h1{
+	padding: 6% 0 0 0;
+	margin: 0;
+	color: #fff;
+	font-size: 30px;
+
+
+}
+
+.graphic{
+		width: 36%;
+	min-height:100%;
+	/*background: #000;*/
+	display: inline-block;
+float: left;
+overflow: hidden;
+margin: 0 2% 0 7%;
+}
+
+.details{
+	margin: 0 7% 0 7%;
+	width:36%;
+	/*height:90%;*/
+	/*background: #000;*/
+	float: left;
+	/*overflow: hidden;*/
+
+		display: inline-block;
+	 position:relative;
+	  top:50%;
+	 transform:translateY(-50%);
+}
+
+
+#ilabimg1{
+
+
+ background: url(../images/products/careerhtml1.png) no-repeat center center;
+ background-size: contain;
+
+}
+
+#ilabimg2{
+
+
+ background: url(../images/products/ilabhtml2.png) no-repeat center center;
+ background-size: contain;
+
+}
+
+#ilabimg3{
+
+
+ background: url(../images/products/ilabhtml3.png) no-repeat center center;
+ background-size: contain;
+
+}
+#careerimg1{
+
+
+ background: url(../images/products/careerhtml1.png) no-repeat center center;
+ background-size: contain;
+}
+
+
+#careerimg2{
+
+ background: url(../images/products/careerhtml2.png) no-repeat center center;
+ background-size: contain;
+}
+#careerimg3{
+
+ background: url(../images/products/careerhtml3.png) no-repeat center center;
+ background-size: contain;
+}
+
+#protrakimg1{
+
+ background: url(../images/products/careerhtml1.png) no-repeat center center;
+ background-size: contain;
+}
+#protrakimg2{
+
+ background: url(../images/products/statehtml1.png) no-repeat center center;
+ background-size: contain;
+}
+#protrakimg3{
+
+ background: url(../images/products/protrakhtml3.png) no-repeat center center;
+ background-size: contain;
+}
+#certificateimg1{
+
+ background: url(../images/products/protrakhtml1.png) no-repeat center center;
+ background-size: contain;
+}
+#certificateimg2{
+
+ background: url(../images/products/protrakhtml2.png) no-repeat center center;
+ background-size: contain;
+}
+#certificateimg3{
+
+ background: url(../images/products/protrakhtml3.png) no-repeat center center;
+ background-size: contain;
+}
+
+#stateimg1{
+
+ background: url(../images/products/protrakhtml1.png) no-repeat center center;
+ background-size: contain;
+}
+#stateimg2{
+
+ background: url(../images/products/protrakhtml2.png) no-repeat center center;
+ background-size: contain;
+}
+#stateimg3{
+
+ background: url(../images/products/protrakhtml3.png) no-repeat center center;
+ background-size: contain;
+}
+
+/*.graphic img{
+	width: 50%;
+	height: 60%;
+	margin: 10% 0 0 10%;
+}*/
+
+.details p{
+
+	margin: 10% 20% 0 0;
+
+	color: #fff ;
+
+	font-size: 20px;
+}
+
+
+/*#ilabbg{
+	background: #f49705;
+}
+
+
+
+#protrackbg{
+	background: #96af3c;
+}
+
+#careerbg{
+	background: #884b88;
+}
+
+#certificatebg{
+	background: #333333;
+}*/
+
+
+.item{
+	height: 100%;
+
+}
+
+
+/*Card implementation*/
+
+.card-container {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+
+  width: 150px;
+  display: inline-block;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+.card-row1, .card-row2, .card-row3{
+
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 1%;
+}
+
+.card-row1{
+	padding-top: 1%;
+}
+
+/*End of card implementation*/
+
+
+/*new card-display implementation*/
+.custom-containercard{
+	width:100%;
+	height: 100%;
+	background: green;
+	margin: auto auto;
+}
+
+
+
+.certificate-row{
+	margin: 0 auto;
+	width: 80%;
+	height: 25%;
+
+
+}
+
+.certificate-col{
+height: 100%;
+background: yellow;
+	border: solid 1px;
+}
+#category-card .certificate-col:hover{
+	cursor: default;
+    background: blue;
+	border:0px;
+}
+
+
+.card-inner{
+	height: 100%;
+	overflow: auto;
+}
+
+
+.carousel-inner h1 {
+    padding: 0 0 0 0;
+    margin: 0;
+    color: #fff;
+    font-size: 30px;
+}
+/*#product-nav p{
+	padding-top: 12px;
+}*/
+/*end new card display implementation*/
+
+
+
+
+
+@media only screen and (max-width: 903px) {
+
+
+
+
+.graphic{
+	width:86%;
+	height:30em;
+	/*background: #000;*/
+	float: none;
+	overflow: hidden;
+	display: block;
+	background: no-repeat center top;
+}
+
+.details{
+	width:100%;
+	height:100%;
+	/*background: #000;*/
+	float: none;
+	margin: 0px;
+	padding: 3% 3% 15% 3%;
+	overflow: hidden;
+	display: block;
+	transform: none;
+}
+
+
+.details p{
+    margin: 0px;
+    padding: 10px;
+	color: #fff ;
+	text-align: justify;
+	font-size: 1em;
+}
+
+.carousel-inner h1{
+	padding: 3%;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.college{
+	height: auto;
+	/*overflow: auto;*/
+
+
+}
+.certificate-row{
+
+	width: 100%;
+	height: auto;
+
+
+}
+.certificate-row h1{
+
+	color: #fff;
+	margin: 0;
+	padding: 1em;
+
+
+}
+
+
+.certificate-col{
+
+	width: 100%;
+	height: 6em;
+
+
+}
+
+	}

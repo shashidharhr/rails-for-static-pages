@@ -1,0 +1,120 @@
+
+<%= stylesheet_link_tag "about-ext"%>
+
+
+            <header>
+	<!-- Main menu -->
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/" style="padding: 0"><img src="images/istarlogo.png" id="logoimg"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="college.html">College <span class="sr-only">(current)</span></a></li>
+        <li><a href="corporate.html">Corporate</a></li>
+          <li><a href="government.html">Government</a></li>
+            <li><a href="about_us.html">About</a></li>
+              <li><a href="Careers.html">Careers</a></li>
+
+              <li  class="active"><a href="Contact.html" style="border-right: none">Contact</a></li>
+
+      </ul>
+
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<!-- /Main menu -->
+</header>
+
+
+			<!-- /Page title -->
+			<!-- Content without sidebar -->
+
+
+	<div class="content">
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="about_us.html">About</a></li>
+   <li><a href="about_us.html#board">Board</a></li>
+  <li class="active">Rahil</li>
+</ol>
+
+<img src="images/team/rahil.jpg" id="memeber">
+<button type="button" class="btn btn-default" style="float: right; margin: 1em 2em 0 0" onclick="location.href='about_us.html#board'">Back</button>
+<h1>Rahil Rangwala</h1>
+
+
+
+
+<h5>Program Officer - Michael & Susan Dell Foundation. &nbsp;<a  href="#"><i class="fa fa-facebook-square"></i></a>
+  <a href="#"><i class="fa fa-twitter-square"></i></a>
+  <a  href="#"><i class="fa fa-linkedin-square"></i></a></h5>
+<!-- 	<div class="list-group">
+
+
+</div> -->
+
+<p> Rahil is a program officer in the family economic stability team in India and
+
+primarily oversees the low income housing portfolio. He spent over seven years
+
+at Bridgewater Associates, a global macro hedge fund, before making the
+
+transition to the development sector. Rahil has a bachelor’s in computer science
+
+from the University of Texas in Austin and a master’s in public administration
+
+with a focus on international development from New York University.
+
+</p>
+
+
+
+
+</div>
+
+
+
+
+<div class="copyright_wrap">
+	<div class="content_wrap">
+		<p>
+			© 2016 All Rights Reserved. <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a>
+		</p>
+	</div>
+</div>
+
+
+	<script type="text/javascript">
+$(document).ready(function(){
+	document.onkeydown = function(e){
+          if (e == null) { // ie
+            keycode = event.keyCode;
+
+          } else { // mozilla
+            keycode = e.which;
+
+          }
+          if(keycode == 27){ // escape, close box, esc
+              // Go back one page
+              console.log("esc pressed");
+
+              window.location.replace("about_us.html#board");
+
+          }
+        };
+    });
+
+</script>

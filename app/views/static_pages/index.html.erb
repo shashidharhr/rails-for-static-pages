@@ -1,0 +1,202 @@
+<%= stylesheet_link_tag "index"%>
+<% provide(:title, "Home") %>
+
+
+
+
+            <header>
+	<!-- Main menu -->
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/" style="padding: 0"><img src="images/istarlogo.png" id="logoimg"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="college.html">College <span class="sr-only">(current)</span></a></li>
+        <li><a href="corporate.html">Corporate</a></li>
+          <li><a href="government.html">Government</a></li>
+            <li><a href="about_us.html">About</a></li>
+              <li><a href="Careers.html">Careers</a></li>
+
+              <li ><a href="Contact.html" style="border-right: none">Contact</a></li>
+
+      </ul>
+
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<!-- /Main menu -->
+</header>
+
+
+
+
+<div class="bs-example-small">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-interval="3000" data-ride="carousel1">
+    	<!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="active item" id="home1">
+
+            	<div class="home-text" >
+                <p>Transformational Education </p>
+            </div>
+
+            </div>
+            <div class="item" id="home2">
+
+
+              <div class="home-text" >
+             <p>Setting you up for success</p>
+         </div>
+
+            </div>
+            <div class="item" id="home3">
+
+
+            	<div class="home-text">
+                 <p>Not just a job but a career</p>
+             </div>
+
+            </div>
+            <div class="item" id="home4">
+
+            	<div class="home-text">
+                 <p>Better skills better jobs </p>
+             </div>
+
+            </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+
+			<!--normal carousel slider -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /Testimonials footer -->
+<!-- Contacts Footer -->
+
+<!-- /Contacts Footer -->
+<!-- Copyright -->
+<div class="copyright_wrap">
+	<div class="content_wrap">
+		<p>
+			© 2016 All Rights Reserved. <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a>
+		</p>
+	</div>
+</div>
+		</div>
+	</div>
+
+
+
+
+	<script type="text/javascript">
+
+
+
+$( document ).ready(function() {
+
+
+
+var IEversion = detectIE();
+
+if (IEversion !== false) {
+  alert('Internet Explorer ' + IEversion + ' is not fully compatible, please use Chrome or Firefox.');
+} else {
+
+}
+
+
+
+/**
+ * detect IE
+ * returns version of IE or false, if browser is not Internet Explorer
+ */
+function detectIE() {
+  var ua = window.navigator.userAgent;
+
+  // Test values; Uncomment to check result …
+
+  // IE 10
+  // ua = 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)';
+
+  // IE 11
+  // ua = 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko';
+
+  // IE 12 / Spartan
+  // ua = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 Edge/12.0';
+
+  // Edge (IE 12+)
+  // ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586';
+
+  var msie = ua.indexOf('MSIE ');
+  if (msie > 0) {
+    // IE 10 or older => return version number
+    return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+  }
+
+  var trident = ua.indexOf('Trident/');
+  if (trident > 0) {
+    // IE 11 => return version number
+    var rv = ua.indexOf('rv:');
+    return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+  }
+
+  var edge = ua.indexOf('Edge/');
+  if (edge > 0) {
+    // Edge (IE 12+) => return version number
+    return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+  }
+
+  // other browser
+  return false;
+}
+
+
+});
+
+
+</script>
+
+
+	<!--<script type="text/javascript" src="js/core.customizer/front.customizer.min.js"></script>
+	<script type="text/javascript" src="js/skin.customizer.min.js"></script>-->
