@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+
+  devise_for :users
+  resources :users
+
   get '/college' => 'static_pages#college'
   get '/corporate' => 'static_pages#corporate'
   get '/government' => 'static_pages#government'
