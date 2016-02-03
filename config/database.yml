@@ -8,25 +8,5 @@ default: &default
 adapter: postgresql
 pool: 5
 host: localhost
-username: istarindia
-password: istarindia
+
 timeout: 5000
-
-
-development:
-  adapter: postgresql
-  encoding: utf8
-  database: istarindia
-  pool: 5
-  username: istarindia
-  password: istarindia
-  host: localhost
-
-production:
-  adapter: postgresql
-  encoding: utf8
-  database: istarindia
-  pool: 5
-  username: istarindia
-  password: istarindia
-  host: localhost
