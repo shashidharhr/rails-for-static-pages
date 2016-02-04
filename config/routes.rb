@@ -13,7 +13,9 @@ Rails.application.routes.draw do
   get '/government' => 'static_pages#government'
   get '/about_us' => 'static_pages#about_us'
   get '/Careers' => 'static_pages#Careers'
+  get '/careers' => 'static_pages#Careers'
   get '/Contact' => 'static_pages#Contact'
+  get '/contact' => 'static_pages#Contact'
   get '/hema' => 'static_pages#hema'
   get '/jayatheerth' => 'static_pages#jayatheerth'
   get '/mssriram' => 'static_pages#mssriram'
@@ -26,6 +28,7 @@ Rails.application.routes.draw do
   get '/tasneem' => 'static_pages#tasneem'
   get '/vaibhav' => 'static_pages#vaibhav'
   get '/will' => 'static_pages#will'
+  get '/ceo' => 'static_pages#surga'
 
 
 
