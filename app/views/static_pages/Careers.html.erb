@@ -53,22 +53,7 @@
 
   <div style="color: #fff">.</div>
 <div class="container">
-  <div class="pull-right">
-<% if user_signed_in? %>
 
-      <%= current_user.email %>&nbsp;&nbsp;&nbsp;
-
-
-      <%= link_to 'Profile', edit_user_registration_path %>&nbsp; &nbsp; &nbsp;&nbsp;
-      <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
-
-
-
-<% else %>
-  <%= link_to 'Log In', new_user_session_path %>&nbsp;&nbsp;&nbsp;&nbsp;
-  <%= link_to 'Sign Up', new_user_registration_path %>
-<% end %>
-</div>
 
   <div class="tab-content">
 
@@ -102,7 +87,7 @@ Drop us a line and our team will get in touch with you to get you on the ISTAR T
 			<blockquote>
 						<p class="clients-words" style="top: 8%">
 iSTAR's trainers are professionally trained and bring their corporate work experience into the classroom. Their enthusiasm for teaching is infectious and students love the high energy levels!</p>
-						<span class="clients-name text-primary" style="top: 4em">— Hema Vaidyanathan</span>
+						<span class="clients-name text-primary" style="top: 4.8em">— Hema Vaidyanathan</span>
 
             <img class="img-circle " src="images/testimonials/hema.png">
 					</blockquote>
@@ -121,7 +106,7 @@ iSTAR's trainers are professionally trained and bring their corporate work exper
 <div class="testimonials">
 			<blockquote>
 						<p class="clients-words">Love the young and vibrant environment that helps nurture creative growth. We are set to make history by revolutionizing the education space. </p>
-						<span class="clients-name text-primary">— Shruthi Varkhedkar</span>
+						<span class="clients-name text-primary" style="top: 4.6em">— Shruthi Varkhedkar</span>
 						<img class="img-circle " src="images/testimonials/shruthi.png">
 					</blockquote>
 
@@ -133,46 +118,27 @@ iSTAR's trainers are professionally trained and bring their corporate work exper
 
 <div class="col col-md-4">
 
-<form role="form">
-	<div class="form-group">
-    <label for="email">First Name:</label>
-    <input type="email" class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="email">Last Name:</label>
-    <input type="email" class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="email">Email address:</label>
-    <input type="email" class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="pwd">Password:</label>
-    <input type="password" class="form-control" id="pwd">
-  </div>
-  <div class="form-group">
-  <label for="sel1">Select list:</label>
-  <select class="form-control" id="sel1">
-    <option>Java</option>
-    <option>C</option>
-    <option>C++</option>
-    <option>Objective C</option>
-  </select>
-</div>
-  <div class="checkbox">
-    <label><input type="checkbox">Remember me</label>
+  <div class="job-card" id="job-card1">
+    <p>Trainers - BFSI, IT, Marketing</p>
+    <p id="job-desc1" style="display: none">More details</p>
+
   </div>
 
-<% if user_signed_in? %>
+  <div class="job-card" id="job-card2">
+    <p >Content Developers</p>
+    <p id="job-desc2" style="display: none">More details</p>
 
-      <%= link_to "Submit", "/Careers", :class => 'btn btn-primary' %>
-  <% else %>
-    <%= link_to "Submit", new_user_session_path, :class => 'btn btn-primary' %>
-
-<% end %>
+  </div>
 
 
-</form>
+  <div class="job-card" id="job-card3">
+    <p>Trainers - BFSI, IT, Marketing</p>
+    <p id="job-desc3" style="display: none">More details</p>
+
+  </div>
+
+  <button class="job-button"  onClick="window.location.href='mailto:careers@istarindia.com'">Apply</button>
+
 
 </div>
 
@@ -225,7 +191,7 @@ Drop us a line if you'd like to join us and put a ding in the universe!
    <div class="testimonials">
 			<blockquote>
 						<p class="clients-words">The tech team at ISTAR is distinctly ambitious. It's an amazing environment- we build on cutting edge technologies to deliver the impact with a truly next gen solution.</p>
-						<span class="clients-name text-primary">— Vishal Daga</span>
+						<span class="clients-name text-primary" style="top: 4.5em">— Vishal Daga</span>
 
             <img class="img-circle " src="images/testimonials/vishal.png">
 					</blockquote>
@@ -235,7 +201,7 @@ Drop us a line if you'd like to join us and put a ding in the universe!
 <div class="testimonials">
 			<blockquote>
 						<p class="clients-words" style="top: 14%">The perfect place to change education society by innovation and technology. The best part here is a developer gets to  work on latest technologies and framework, and can play a significant role in architect and design.</p>
-						<span class="clients-name text-primary" style="top: 4.5em">— Mayank Prajapati</span>
+						<span class="clients-name text-primary" style="top: 4.8em">— Mayank Prajapati</span>
 						  <img class="img-circle " src="images/testimonials/mayank.png">
 					</blockquote>
 
@@ -247,43 +213,26 @@ Drop us a line if you'd like to join us and put a ding in the universe!
 
 <div class="col col-md-4">
 
-<form role="form">
-	<div class="form-group">
-    <label for="email">First Name:</label>
-    <input type="text" class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="email">Last Name:</label>
-    <input type="text" class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="email">Email address:</label>
-    <input type="email" class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="pwd">Password:</label>
-    <input type="password" class="form-control" id="pwd">
-  </div>
-  <div class="form-group">
-  <label for="sel1">Select list:</label>
-  <select class="form-control" id="sel1">
-    <option>Java</option>
-    <option>C</option>
-    <option>C++</option>
-    <option>Objective C</option>
-  </select>
-</div>
-  <div class="checkbox">
-    <label><input type="checkbox"> Remember me</label>
-  </div>
-  <% if user_signed_in? %>
+  <div class="job-card" id="job-card4">
+    <p>Full Stack Developer</p>
+    <p id="job-desc4" style="display: none">More details</p>
 
-        <%= link_to "Submit", "/Careers", :class => 'btn btn-primary' %>
-    <% else %>
-      <%= link_to "Submit", new_user_session_path, :class => 'btn btn-primary' %>
+  </div>
 
-  <% end %>
-</form>
+  <div class="job-card" id="job-card5">
+    <p>Java Developer</p>
+    <p id="job-desc5" style="display: none">More details</p>
+
+  </div>
+
+
+  <div class="job-card" id="job-card6">
+    <p>Javascript Developer</p>
+    <p id="job-desc6" style="display: none">More details</p>
+
+  </div>
+
+  <button class="job-button"  onClick="window.location.href='mailto:careers@istarindia.com'">Apply</button>
 
 </div>
 
@@ -334,7 +283,7 @@ Join us transform learning from a dreary chalk 'n' talk world into the magical e
            <div class="testimonials">
 			<blockquote>
 						<p class="clients-words" style="top: 4%">We have before us an exciting opportunity for us to showcase our content in the most visually exciting, interactive and engaging fashion possible.  Our creative team is young and energetic and focused on bringing great content alive!</p>
-						<span class="clients-name text-primary" style="top: 4.7em">— Hema Vaidyanathan</span>
+						<span class="clients-name text-primary" style="top: 4.8em">— Hema Vaidyanathan</span>
 
             <img class="img-circle " src="images/testimonials/hema.png">
 					</blockquote>
@@ -344,7 +293,7 @@ Join us transform learning from a dreary chalk 'n' talk world into the magical e
    <div class="testimonials">
 			<blockquote>
 						<p class="clients-words">My potential is challenged everyday. In this environment I am constantly growing.</p>
-						<span class="clients-name text-primary">— Clevin Wilfred</span>
+						<span class="clients-name text-primary" >— Clevin Wilfred</span>
 						<img class="img-circle " src="images/testimonials/clevin.png">
 					</blockquote>
 
@@ -364,43 +313,33 @@ Join us transform learning from a dreary chalk 'n' talk world into the magical e
 
 <div class="col col-md-4">
 
-<form role="form">
-	<div class="form-group">
-    <label for="email">First Name:</label>
-    <input type="text" class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="email">Last Name:</label>
-    <input type="text" class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="email">Email address:</label>
-    <input type="email" class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="pwd">Password:</label>
-    <input type="password" class="form-control" id="pwd">
-  </div>
-  <div class="form-group">
-  <label for="sel1">Select list:</label>
-  <select class="form-control" id="sel1">
-    <option>Java</option>
-    <option>C</option>
-    <option>C++</option>
-    <option>Objective C</option>
-  </select>
-</div>
-  <div class="checkbox">
-    <label><input type="checkbox"> Remember me</label>
-  </div>
-  <% if user_signed_in? %>
+  <div class="job-card" id="job-card7">
+    <p>Creative Head</p>
+    <p id="job-desc7" style="display: none">More details</p>
 
-        <%= link_to "Submit", "/Careers", :class => 'btn btn-primary' %>
-    <% else %>
-      <%= link_to "Submit", new_user_session_path, :class => 'btn btn-primary' %>
+  </div>
 
-  <% end %>
-</form>
+  <div class="job-card" id="job-card8">
+    <p>Graphic Designers</p>
+    <p id="job-desc8" style="display: none">More details</p>
+
+  </div>
+
+
+  <div class="job-card" id="job-card9">
+    <p>Illustrator Game Design</p>
+    <p id="job-desc9" style="display: none">More details</p>
+
+  </div>
+
+  <div class="job-card" id="job-card10">
+    <p>Visualizers</p>
+    <p id="job-desc10" style="display: none">More details</p>
+
+  </div>
+
+  <button class="job-button"  onClick="window.location.href='mailto:careers@istarindia.com'">Apply</button>
+
 
 </div>
 
@@ -433,7 +372,7 @@ We can have a section that features our latest openings.</p>
 			<blockquote>
 						<p class="clients-words">
               I am glad to be at istar because it is a young and fun organization. People  here are energetic and very enthusiastic about work and the fun part of it. </p>
-						<span class="clients-name text-primary">— Tasneem Hegde</span>
+						<span class="clients-name text-primary" style="top: 4.5em">— Tasneem Hegde</span>
             <img class="img-circle " src="images/testimonials/tasneem.png">
 
 					</blockquote>
@@ -443,7 +382,7 @@ We can have a section that features our latest openings.</p>
    <div class="testimonials">
 			<blockquote>
 						<p class="clients-words">iStar is a nurturing ground for personal and professional growth. Every day you are sure to encounter a new challenge that just enhances the excitement of the environment.</p>
-						<span class="clients-name text-primary" style="top: 4.5em">— Bhavya Dasa</span>
+						<span class="clients-name text-primary" style="top: 4.8em">— Bhavya Dasa</span>
             <img class="img-circle " src="images/testimonials/bhavya.png">
 
 					</blockquote>
@@ -453,7 +392,7 @@ We can have a section that features our latest openings.</p>
 <div class="testimonials">
 			<blockquote>
 						<p class="clients-words">Being into operations, engage & deliver for a longer time, I have  learnt from my company the core values of hard work & professionalism, the result is a genuine ability to deliver solutions each & every time.</p>
-						<span class="clients-name text-primary" style="top: 4.5em">— Santhosh Swamy</span>
+						<span class="clients-name text-primary" style="top: 4.8em">— Santhosh Swamy</span>
 						<img class="img-circle " src="images/testimonials/santhosh.png">
 					</blockquote>
 
@@ -465,48 +404,20 @@ We can have a section that features our latest openings.</p>
 
 <div class="col col-md-4">
 
-<form role="form">
-	<div class="form-group">
-    <label for="email">First Name:</label>
-    <input type="text" class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="email">Last Name:</label>
-    <input type="text" class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="email">Email address:</label>
-    <input type="email" class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="pwd">Password:</label>
-    <input type="password" class="form-control" id="pwd">
+  <div class="job-card" id="job-card11">
+    <p>Head Ops</p>
+    <p id="job-desc11" style="display: none">More details</p>
+
   </div>
 
-<div class="form-group">
-  <label for="sel1">Select list:</label>
-  <select class="form-control" id="sel1">
-    <option>Java</option>
-    <option>C</option>
-    <option>C++</option>
-    <option>Objective C</option>
-  </select>
-</div>
-
-
-
-  <div class="checkbox">
-
-    <label><input type="checkbox"> Remember me</label>
+  <div class="job-card" id="job-card12">
+    <p>Regional Ops</p>
+     <p id="job-desc12" style="display: none">More details</p>
   </div>
-  <% if user_signed_in? %>
 
-        <%= link_to "Submit", "/Careers", :class => 'btn btn-primary' %>
-    <% else %>
-      <%= link_to "Submit", new_user_session_path, :class => 'btn btn-primary' %>
 
-  <% end %>
-</form>
+
+  <button class="job-button"  onClick="window.location.href='mailto:careers@istarindia.com'">Apply</button>
 
 </div>
 
@@ -523,43 +434,6 @@ We can have a section that features our latest openings.</p>
 
 
 							<!--  Board  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -597,5 +471,65 @@ We can have a section that features our latest openings.</p>
 </div>
 
 			<!-- /Copyright -->
+
+
+
+      <script type="text/javascript">
+
+      $( document ).ready(function() {
+
+        $("#job-card1").hover(function(){
+            $('#job-desc1').fadeToggle();
+        });
+
+        $("#job-card2").hover(function(){
+            $('#job-desc2').fadeToggle();
+        });
+
+        $("#job-card3").hover(function(){
+            $('#job-desc3').fadeToggle();
+        });
+
+        $("#job-card4").hover(function(){
+            $('#job-desc4').fadeToggle();
+        });
+
+        $("#job-card5").hover(function(){
+            $('#job-desc5').fadeToggle();
+        });
+
+        $("#job-card6").hover(function(){
+            $('#job-desc6').fadeToggle();
+        });
+        $("#job-card7").hover(function(){
+            $('#job-desc7').fadeToggle();
+        });
+        $("#job-card8").hover(function(){
+            $('#job-desc8').fadeToggle();
+        });
+
+        $("#job-card9").hover(function(){
+            $('#job-desc9').fadeToggle();
+        });
+
+        $("#job-card10").hover(function(){
+            $('#job-desc10').fadeToggle();
+        });
+
+        $("#job-card11").hover(function(){
+            $('#job-desc11').fadeToggle();
+        });
+
+        $("#job-card12").hover(function(){
+            $('#job-desc12').fadeToggle();
+        });
+
+
+
+
+      });
+      </script>
+
+
 		</div>
 	</div>
