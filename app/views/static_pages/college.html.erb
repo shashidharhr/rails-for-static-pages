@@ -1874,6 +1874,10 @@ $(product_card13).fadeIn();
 
 $( document ).ready(function() {
     console.log( "ready!" );
+    $('.carousel').carousel({
+    pause: true,
+    interval: false
+});
 $(document).keyup(function(e) {
     // enter
   if (e.which == 27) $('.cancel').click();
