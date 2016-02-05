@@ -78,6 +78,13 @@ html, body {
 	height: 100%;
 	line-height:150%;
 }
+
+.tab-icon{
+max-width: 2px;
+max-height: 2em;
+
+}
+
 html {
 	font-size: 62.5%; 					/* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
 	overflow-y: scroll;		 			/* Keeps page centred in all browsers regardless of content height */
