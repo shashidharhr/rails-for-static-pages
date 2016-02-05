@@ -386,7 +386,7 @@ background: #fec56d;
 .graphic{
 		width: 36%;
 	min-height:100%;
-	/*background: #000;*/
+	
 	display: inline-block;
 float: left;
 overflow: hidden;
@@ -411,89 +411,35 @@ margin: 0 2% 0 7%;
 #ilabimg1{
 
 
- background: url(../images/products/careerhtml1.png) no-repeat center center;
- background-size: contain;
-
+ background: url(../images/products/govthtml1.png) no-repeat center center;
+background-size: contain;
 }
 
-#ilabimg2{
-
-
- background: url(../images/products/ilabhtml2.png) no-repeat center center;
- background-size: contain;
-
-}
-
-#ilabimg3{
-
-
- background: url(../images/products/ilabhtml3.png) no-repeat center center;
- background-size: contain;
-
-}
 #careerimg1{
 
 
- background: url(../images/products/careerhtml1.png) no-repeat center center;
+ background: url(../images/products/govthtml3.png) no-repeat center center;
  background-size: contain;
 }
 
 
-#careerimg2{
-
- background: url(../images/products/careerhtml2.png) no-repeat center center;
- background-size: contain;
-}
-#careerimg3{
-
- background: url(../images/products/careerhtml3.png) no-repeat center center;
- background-size: contain;
-}
 
 #protrakimg1{
 
- background: url(../images/products/careerhtml1.png) no-repeat center center;
+ background: url(../images/products/govthtml2.png) no-repeat center center;
  background-size: contain;
 }
-#protrakimg2{
 
- background: url(../images/products/statehtml1.png) no-repeat center center;
- background-size: contain;
-}
-#protrakimg3{
 
- background: url(../images/products/protrakhtml3.png) no-repeat center center;
- background-size: contain;
-}
 #certificateimg1{
 
- background: url(../images/products/protrakhtml1.png) no-repeat center center;
- background-size: contain;
-}
-#certificateimg2{
-
- background: url(../images/products/protrakhtml2.png) no-repeat center center;
- background-size: contain;
-}
-#certificateimg3{
-
- background: url(../images/products/protrakhtml3.png) no-repeat center center;
+ background: url(../images/products/govthtml4.png) no-repeat center center;
  background-size: contain;
 }
 
 #stateimg1{
 
- background: url(../images/products/protrakhtml1.png) no-repeat center center;
- background-size: contain;
-}
-#stateimg2{
-
- background: url(../images/products/protrakhtml2.png) no-repeat center center;
- background-size: contain;
-}
-#stateimg3{
-
- background: url(../images/products/protrakhtml3.png) no-repeat center center;
+ background: url(../images/products/govthtml5.png) no-repeat center center;
  background-size: contain;
 }
 
