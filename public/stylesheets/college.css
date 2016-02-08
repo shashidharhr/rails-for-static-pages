@@ -280,6 +280,7 @@ background: #6d6d6d;
 /*height: 100%;
 width: 100%;*/
 background: #6d6d6d;
+height: 100%;
 
    /*background-size: contain;	*/
 }
@@ -658,6 +659,7 @@ p.inner-text{
 #testimonials{
 	width: 90%; 
 	margin: 0 auto;
+	height: 100%;
 }
 #testimonials h2 {
 	color:#333;
@@ -675,6 +677,7 @@ p.inner-text{
 
 #testimonials li{
 	padding-left: 20%;
+	height: 49%;	
 }
 
 
