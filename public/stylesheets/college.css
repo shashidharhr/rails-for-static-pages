@@ -154,9 +154,7 @@ padding: 1px 0px;
 .nav>li>a:hover{
 	background-color: rgba(234,234,225,0.4);
 }
-/*.nav-tabs>li>a:hover{
-	border-color: rgba(0,0,0,0);
-}*/
+
 
 .nav-tabs>li>a{
 	border-radius: 0 0 0 0;
@@ -278,6 +276,16 @@ background: #6d6d6d;
 
    /*background-size: contain;	*/
 }
+#ilab4 {
+/*height: 100%;
+width: 100%;*/
+background: #6d6d6d;
+
+   /*background-size: contain;	*/
+}
+
+
+
 
 #protrack1{
  /*background: url(images/products/protrack4.jpg) no-repeat center center ;
@@ -298,6 +306,14 @@ background: #FEC56D;
  background: #FEC56D;
 }
 
+#protrack4{
+ /*background: url(images/products/protrack6.jpg) no-repeat center center ;
+ background-size: cover;*/
+ background: #FEC56D;
+}
+
+
+
 #career1{
  /*background: url(images/products/careerprep1.jpg) no-repeat center center ;
  background-size: cover;*/
@@ -314,9 +330,10 @@ background: #FEC56D;
 
 }
 #career4{
-		 background: #585858 ;
+		 background: #006095 ;
 
 }
+
 
 #certificate1{
  background: url(images/products/cert1.png) no-repeat center center ;
@@ -637,7 +654,90 @@ p.inner-text{
 }
 
 
+/*Testimonial section*/
+.testimonial-row{
+	width: 90%; 
+	margin: 0 auto;
+	height: 100%;
+	padding-top: 3%;
 
+}
+
+
+.testimonial-col{
+
+	height: 80%;
+	
+}
+
+#ilabtestimonial1{
+
+	
+ background: url("/images/testimonials/ilabtestimonial1.png") no-repeat center center;
+ background-size: contain;
+}
+
+
+#ilabtestimonial2{
+
+	
+ background: url("/images/testimonials/ilabtestimonial2.png") no-repeat center center;
+ background-size: contain;
+}
+
+
+#ilabtestimonial3{
+
+	
+ background: url("/images/testimonials/ilabtestimonial3.png") no-repeat center center;
+ background-size: contain;
+}
+
+#protracktestimonial1{
+
+	
+ background: url("/images/testimonials/protracktestimonial1.png") no-repeat center center;
+ background-size: contain;
+}
+
+#protracktestimonial2{
+
+	
+ background: url("/images/testimonials/protracktestimonial2.png") no-repeat center center;
+ background-size: contain;
+}
+
+#protracktestimonial3{
+
+	
+ background: url("/images/testimonials/protracktestimonial3.png") no-repeat center center;
+ background-size: contain;
+}
+
+
+
+#careertestimonial1{
+
+	
+ background: url("/images/testimonials/ilabtestimonial1.png") no-repeat center center;
+ background-size: contain;
+}
+
+#careertestimonial2{
+
+	
+ background: url("/images/testimonials/ilabtestimonial2.png") no-repeat center center;
+ background-size: contain;
+}
+
+#careertestimonial3{
+
+	
+ background: url("/images/testimonials/ilabtestimonial3.png") no-repeat center center;
+ background-size: contain;
+}
+
+/*end of testimonail*/
 
 @media only screen and (max-width: 903px) {
 
@@ -720,5 +820,25 @@ p.inner-text{
 border-top: solid 1px #333;
 
 }
+
+
+
+.testimonial-row{
+	 
+	
+	
+	height: 100%;
+	padding-bottom: 10%;
+
+}
+
+
+.testimonial-col{
+
+	height: 30em;
+	
+}
+
+
 
 	}
