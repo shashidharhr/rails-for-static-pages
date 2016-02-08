@@ -38,6 +38,7 @@ height: 900px;
 
 	margin-top: 1em;
 	margin-right: 10em;
+  text-align: justify;
 }
 .content{
 	min-height: 100%;
