@@ -655,86 +655,58 @@ p.inner-text{
 
 
 /*Testimonial section*/
-.testimonial-row{
+#testimonials{
 	width: 90%; 
 	margin: 0 auto;
-	height: 100%;
-	padding-top: 3%;
+}
+#testimonials h2 {
+	color:#333;
+	width: 60%;
+	font:26px Georgia, serif;
+	text-shadow:-1px -1px 0 rgba(255,255,255,0.25);
+	margin-top: 0;
+}
+#testimonials li {
+	border-top:3px solid rgba(0,0,0,0.2);
+	clear:both;
+	padding:40px 0;
 
 }
 
-
-.testimonial-col{
-
-	height: 80%;
-	
-}
-
-#ilabtestimonial1{
-
-	
- background: url("/images/testimonials/ilabtestimonial1.png") no-repeat center center;
- background-size: contain;
+#testimonials li{
+	padding-left: 40%;
 }
 
 
-#ilabtestimonial2{
-
+#testimonials li:nth-child(2n){
+	padding-left: 0%;
 	
- background: url("/images/testimonials/ilabtestimonial2.png") no-repeat center center;
- background-size: contain;
 }
-
-
-#ilabtestimonial3{
-
+#testimonials li img {
 	
- background: url("/images/testimonials/ilabtestimonial3.png") no-repeat center center;
- background-size: contain;
+	float:left;
+	
+	
+	border-radius: 100%;
+	margin:0 20px 0 0;
+	height: 220px;
+	width: 200px;
 }
-
-#protracktestimonial1{
-
+#testimonials li:nth-child(2n) img {
+	float:right;
 	
- background: url("/images/testimonials/protracktestimonial1.png") no-repeat center center;
- background-size: contain;
+	margin:0 0 0 20px;
+
 }
-
-#protracktestimonial2{
-
-	
- background: url("/images/testimonials/protracktestimonial2.png") no-repeat center center;
- background-size: contain;
+#testimonials p {
+		
+	color: #333;
 }
-
-#protracktestimonial3{
-
-	
- background: url("/images/testimonials/protracktestimonial3.png") no-repeat center center;
- background-size: contain;
+#testimonials li:first-child {
+	border:none;
 }
-
-
-
-#careertestimonial1{
-
-	
- background: url("/images/testimonials/ilabtestimonial1.png") no-repeat center center;
- background-size: contain;
-}
-
-#careertestimonial2{
-
-	
- background: url("/images/testimonials/ilabtestimonial2.png") no-repeat center center;
- background-size: contain;
-}
-
-#careertestimonial3{
-
-	
- background: url("/images/testimonials/ilabtestimonial3.png") no-repeat center center;
- background-size: contain;
+#testimonials div {
+	overflow:hidden;
 }
 
 /*end of testimonail*/
