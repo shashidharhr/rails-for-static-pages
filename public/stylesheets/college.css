@@ -691,8 +691,8 @@ p.inner-text{
 	
 	
 	margin:0 -7em 0 0;
-	height: 14em;
-	width: 14em;
+	height: 100%;
+	width: 20%;
 	border: 4px solid #fff;
 	 box-shadow: 2px 2px 5px #333;
 }
