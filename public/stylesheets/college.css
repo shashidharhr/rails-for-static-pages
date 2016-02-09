@@ -735,9 +735,8 @@ p.inner-text{
 	float: right;
 
 	display: flex;
-
+justify-content: center; /* align horizontal */
 align-items: center; /* align vertical */
-	
     
 }
 
@@ -745,31 +744,33 @@ align-items: center; /* align vertical */
 .testimonial-two{
 	background: rgba(255,255,255, 0.4);;
 	
-	clear: both;
+	
 	
 	margin-left: 6%;
-	
 display: flex;
 justify-content: center; /* align horizontal */
 align-items: center; /* align vertical */
+
+
 }
 
 
 
 .testimonial-image {
-	display: flex;
-
-align-items: center; /* align vertical */
+	
 
 	height: 100%;
  	
-     
-
+display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
 
 }
 
 .testimonial-details{
-display: inline-block;
+display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
 
 
 	width: 65%;
@@ -778,15 +779,7 @@ display: inline-block;
 	
 }
 
-.testimonial-details h3{
 
-	color: #333;
-    width: 60%;
-    font: 26px Georgia, serif;
-    text-shadow: -1px -1px 0 rgba(255,255,255,0.25);
-    margin-top: 0;
-
-}
 
 .testimonial-details blockquote p{
 
@@ -794,6 +787,9 @@ color: #333;
 font-size: 0.63em;
 }
 
+blockquote{
+	margin-bottom: 0;
+}
 
 blockquote:before{
     left: -32px;
@@ -804,13 +800,16 @@ blockquote:before{
 
 }
 
-.testimonial-section img{
+.testimonial-image img{
 	width: 10em;
 	height: 10em;
 	margin: 1em;
 	border-radius: 50%; 
 	    border: 4px solid #fff;
     box-shadow: 2px 2px 5px #333;
+    display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
 }
 
 
