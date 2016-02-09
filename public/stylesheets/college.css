@@ -733,6 +733,10 @@ p.inner-text{
 	margin-bottom: 7%;
 	margin-right: 6%;
 	float: right;
+
+	display: flex;
+
+align-items: center; /* align vertical */
 	
     
 }
@@ -745,20 +749,22 @@ p.inner-text{
 	
 	margin-left: 6%;
 	
-
+display: flex;
+justify-content: center; /* align horizontal */
+align-items: center; /* align vertical */
 }
 
 
 
 .testimonial-image {
-	
+	display: flex;
+
+align-items: center; /* align vertical */
 
 	height: 100%;
  	
-    display: flex;              /* establish flex container */
-    flex-direction: column;
-    justify-content: center;    /* align items vertically, in this case */ 
- display: inline;
+     
+
 
 }
 
