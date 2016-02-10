@@ -839,6 +839,12 @@ align-items: center; /* align vertical */
 	height: 30em;
 	
 }
+
+.second{
+	float: right;
+}
+
+
 /*end of testimonail*/
 
 @media only screen and (max-width: 904px) {
@@ -974,3 +980,32 @@ div.testimonial-image{
 
 
 	}
+@media only screen and (max-device-width: 480px) {
+
+div.testimonial-image {
+    display: block;
+    height: auto;
+    float: none;
+   clear both;
+}
+
+.testimonial-details {
+    margin: 0;
+    display: block;
+    width: 100%;
+}
+
+.testimonial-one, .testimonial-two{
+ margin: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.second{
+	float: none;
+}
+
+
+}
