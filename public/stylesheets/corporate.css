@@ -604,7 +604,13 @@ p.inner-text{
 
 }
 
-
+.back p {
+    font-size: 1.17em;
+    line-height: 1em;
+    /* text-align: justify; */
+    padding: 1.2em;
+    font-style: italic;
+}
 
 .certificate-row h1{
 
