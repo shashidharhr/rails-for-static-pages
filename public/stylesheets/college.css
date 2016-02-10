@@ -995,17 +995,28 @@ div.testimonial-image {
     width: 100%;
 }
 
+div.testimonial-image img{
+	display: block;
+    margin: 0 auto;
+    
+}
+
 .testimonial-one, .testimonial-two{
  margin: 0;
     display: block;
     width: 100%;
     height: auto;
+    padding: 1%;
 
 }
 
 .second{
 	float: none;
 }
+.testimonial-one{
+	margin-bottom: 1%;
+}
+
 
 
 }
