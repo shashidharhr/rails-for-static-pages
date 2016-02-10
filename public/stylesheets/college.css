@@ -566,6 +566,17 @@ p.inner-text{
 
 }
 
+.back p{
+	font-size: 1.17em;
+	line-height: 1em;
+	/*text-align: justify;*/
+	padding: 1.2em;
+	font-style: italic;
+
+}
+
+
+
 
 
 .certificate-row h1{
@@ -927,7 +938,7 @@ border-top: solid 1px #333;
 	margin: 0 auto;
 	display: block;
 	width: 80%;
-    height: 14em;
+    height: 17em;
 	padding-top: 2%;
 	
 }
@@ -937,10 +948,24 @@ float: none;
 	margin: 4% auto;
 	display: block;
 	width: 80%;
-	height: 14em;
+	height: 17em;
 	padding-top: 2%;
 
 }
+
+.testimonial-details{
+margin: 0;
+display: inline-block;
+
+}
+
+div.testimonial-image{
+	display: inline-block;
+	height: auto;
+	float: none;
+	height: 15em;
+}
+
 
 
 #ilab4{
