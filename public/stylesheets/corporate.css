@@ -713,9 +713,15 @@ p.inner-text{
 	padding-top: 0;
 }
 
+#myCarouselcsr{
+
+	width: 100%;
+}
+
 .graphic{
-	width:86%;
+	width:95%;
 	height:30em;
+	margin: 0 auto;
 	/*background: #000;*/
 	float: none;
 	overflow: hidden;
