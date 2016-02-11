@@ -72,7 +72,7 @@ width: 100%;
   height: 100%;
 
    /* margin-top: 20px; */
-   width: 100%;
+   
 
 
 }
@@ -250,8 +250,8 @@ background: #7b7b51;
 }
 
 #myCarousel3{
-background: #7b7b51;
-}
+   background: #b7b795;
+  height: 100%;}
 
 #myCarousel4{
 background: #7b7b51;
@@ -478,15 +478,17 @@ margin: 0 1% 0 4%;
 
 #csr{
 
- background: url(../images/products/csrhtml.jpg) no-repeat center center;
- background-size: contain;
+ /*background: url(../images/products/csrhtml.jpg) no-repeat center center;
+ background-size: contain;*/
+  display: flex;              /* establish flex container */
+    flex-direction: column;
+    justify-content: center;    /* align items vertically, in this case */
+    align-items: center;        /* align items horizontally, in this case */
+    height: auto;
+ 
 }
 
-/*.graphic img{
-	width: 50%;
-	height: 60%;
-	margin: 10% 0 0 10%;
-}*/
+
 
 .details p{
 
