@@ -10,6 +10,6 @@ Things you may want to cover:
 
 * Run Bundle Install
 
-* //rake dm:migrate
+* //rake db:migrate
 
 * Rails s 
